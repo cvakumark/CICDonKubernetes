@@ -21,7 +21,7 @@ spec:
         app: master
     spec:
       containers:
-        - image: geass/jenkins:1.0.2
+        - image: cvakumark/my-jenkins-image
           name: jenkinsui
           ports:
             - containerPort: 8080
